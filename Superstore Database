@@ -41,7 +41,7 @@ ORDER BY price DESC;
 SELECT MAX(price), MIN(price), AVG(price), SUM(price), COUNT (price)
 FROM superstore;
 
-#Used aggregate functions to show common statistics related to the Kitchen Supplies' item prices
+#Used aggregate functions to show common statistics related to the item prices in the Kitchen Supplies category
 SELECT MAX(price), MIN(price), AVG(price), SUM(price), COUNT (price)
 FROM superstore
 WHERE category = 'Kitchen Supplies';
